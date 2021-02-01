@@ -1,0 +1,29 @@
+﻿
+#xpanel .HabraUnread-unread-button {
+  margin: 2px;
+  width: 28px;
+  height: 28px;
+  display: block;
+  color: #ffffff;
+}
+
+#xpanel .HabraUnread-unread-button:hover{
+  background-color:rgba(0, 0, 0, 0.1);
+}
+
+#xpanel .refresh {
+  position: relative;
+}
+
+#xpanel .refresh:before {
+  position: absolute;
+  top: -2px;
+  right: 1px;
+  left: 1px;
+  margin: 0 auto;
+  width: 28px;
+  height: 0;
+  border-top: solid 1px #5c5c5c;
+  border-bottom: solid 1px #ddd;
+  content: "";
+}

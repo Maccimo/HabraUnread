@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" >
+  <symbol id="envelope" viewBox="0 0 24 24">
+    <path d="M0,4 l1,-1 h22 l1,1 v16 l-1,1 h-22 l-1,-1 v-16 M2,5 h20 v14 h-20 v-14 z" fill-rule="evenodd" />
+    <path d="M0,4 l23,17 l1,-1 l-23,-17 l-1,1 z" />
+    <path d="M24,4 l-23,17 l-1,-1 l23,-17 l1,1 z" />
+  </symbol>
+  <symbol id="toolbar-icon" viewBox="0 0 28 28">
+    <path d="M2,6 l1,-1 h22 l1,1 v16 l-1,1 h-22 l-1,-1 v-16 M4,7 h20 v14 h-20 v-14 z" fill-rule="evenodd" />
+    <path d="M2,6 l23,17 l1,-1 l-23,-17 l-1,1 z" />
+    <path d="M26,6 l-23,17 l-1,-1 l23,-17 l1,1 z" />
+  </symbol>
+</svg>
