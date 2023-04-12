@@ -7,12 +7,19 @@
 // @match       *://habr.com/*/blog/*
 // @match       *://habr.com/*/news/*
 // @match       *://habr.com/*/article/*
+// @match       *://habr.com/*/articles/*
 // @require     https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js
 // @resource    icons https://raw.githubusercontent.com/Maccimo/HabraUnread/master/icons.svg
 // @resource    styles https://raw.githubusercontent.com/Maccimo/HabraUnread/master/styles.css
 // @grant       GM.getResourceUrl
-// @version     1.0
+// @version     1.1
 // ==/UserScript==
+//
+// Version history:
+//
+//  - 2023/04/12    1.1    Support for the new *://habr.com/*/articles/* URL pattern.
+//  - 2021/02/01    1.0    Initial release.
+//
 
 (async function(document) {
 
